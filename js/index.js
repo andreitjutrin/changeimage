@@ -29,7 +29,7 @@ function clearS() {
 //////////////////////////////////////////////////////////////
 
 function citySelect(cityN) {
-	if (cityN == "new york" || cityN == "nyc") {
+	if (cityN == "new york" || cityN == "nyc" || cityN == "new york city" ) {
 		clearS();
 		$("body").addClass("nyc");
 		}	
